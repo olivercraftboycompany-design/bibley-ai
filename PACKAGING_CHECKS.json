@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "exact_reference_John 3:16": true,
+    "exact_reference_Genesis 1:1": true,
+    "exact_reference_Psalms 23:1": true,
+    "all_31102_verses": true,
+    "verse_embeddings_31102x384": true,
+    "topical_embeddings_match": true,
+    "all_topic_indices_valid": true,
+    "bm25_keyword_search": true
+  },
+  "known_failures": [
+    "Singular Psalm reference not recognized; documented in README."
+  ],
+  "model_generation_rerun": false,
+  "scope": "Local packaging, data integrity and retrieval smoke checks only. Not a full inference or Mac compatibility test."
+}
