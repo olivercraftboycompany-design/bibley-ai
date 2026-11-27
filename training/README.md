@@ -18,7 +18,7 @@ Turns 10 small, Apache-2.0 open models into Bibley models that look up and quote
 All are Apache 2.0 (checked on Hugging Face, Nov 26 2026). Excluded: Qwen2.5-1.5B and Granite 4.0 1B (over 1.5B params), and Gemma 3, Llama 3.2 and LFM2 (custom licenses).
 
 ## Run it
-Easiest: upload `bibley_train_kaggle.ipynb` to Kaggle, turn on a T4 GPU, and run every cell.
+Easiest: on Kaggle, run `bibley_train_kaggle.ipynb` (7 small models) and `bibley_train_kaggle_part2.ipynb` (the 3 models over 1B) with a T4 GPU and Save & Run All. Each fits in one 12-hour session.
 
 By hand on any GPU:
 ```bash
