@@ -1,0 +1,15 @@
+{
+  "_note": "All bases are Apache 2.0 and under 1.5B params (checked on Hugging Face, Nov 26 2026). size_target is the format that keeps the release under 1 GB.",
+  "models": [
+    {"bibley_name": "Bibley-Qwen3-0.6B",     "base": "Qwen/Qwen3-0.6B",                        "params": "0.75B", "size_target": "Q8_0", "lora_r": 16, "lr": 2e-4},
+    {"bibley_name": "Bibley-Qwen2.5-0.5B",   "base": "Qwen/Qwen2.5-0.5B-Instruct",             "params": "0.49B", "size_target": "Q8_0", "lora_r": 16, "lr": 2e-4},
+    {"bibley_name": "Bibley-Smol-360M",      "base": "HuggingFaceTB/SmolLM2-360M-Instruct",    "params": "0.36B", "size_target": "F16",  "lora_r": 16, "lr": 3e-4},
+    {"bibley_name": "Bibley-Smol-135M",      "base": "HuggingFaceTB/SmolLM2-135M-Instruct",    "params": "0.13B", "size_target": "F16",  "lora_r": 16, "lr": 4e-4},
+    {"bibley_name": "Bibley-Granite-350M",   "base": "ibm-granite/granite-4.0-350m",           "params": "0.35B", "size_target": "F16",  "lora_r": 16, "lr": 3e-4},
+    {"bibley_name": "Bibley-Granite-H-350M", "base": "ibm-granite/granite-4.0-h-350m",         "params": "0.34B", "size_target": "F16",  "lora_r": 16, "lr": 3e-4},
+    {"bibley_name": "Bibley-Granite-H-1B",   "base": "ibm-granite/granite-4.0-h-1b",           "params": "1.46B", "size_target": "Q4_K_M", "lora_r": 16, "lr": 1e-4},
+    {"bibley_name": "Bibley-OLMo2-1B",       "base": "allenai/OLMo-2-0425-1B-Instruct",        "params": "1.48B", "size_target": "Q4_K_M", "lora_r": 16, "lr": 1e-4},
+    {"bibley_name": "Bibley-TinyLlama-1.1B", "base": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",     "params": "1.1B",  "size_target": "Q4_K_M", "lora_r": 16, "lr": 1e-4},
+    {"bibley_name": "Bibley-Danube3-500M",   "base": "h2oai/h2o-danube3-500m-chat",            "params": "0.51B", "size_target": "Q8_0", "lora_r": 16, "lr": 2e-4}
+  ]
+}
